@@ -1,0 +1,95 @@
+body {
+   background-color: rgb(241, 241, 241);
+}
+
+.container-fluid b,
+.navbar-nav .nav-item .nav-link {
+   padding-left: 5px;
+   color: white;
+}
+
+.dropdown-menu .dropdown-item {
+   color: black;
+   background-color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+   color: white;
+   background-color: #d3d3d3;
+}
+
+.nav-item {
+   margin-right: 25px;
+}
+
+.dropdown-menu {
+   text-align: center;
+}
+
+
+.nav-item a {
+   display: block;
+   padding: 1rem;
+   background-color: #dc3545;
+   color: white;
+   line-height: 20px;
+}
+
+.navbar {
+   padding-top: 0;
+   padding-bottom: 0;
+}
+
+.nav-item a:hover {
+   background-color: #c82333;
+   height: 100%;
+}
+
+.mainText {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   background-color: white;
+   height: 100vh;
+   width: 18%;
+   float: left;
+   padding-left: 0;
+   padding-right: 0;
+   text-align: center;
+}
+
+
+.container ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.container li a {
+   display: block;
+   padding: 10px;
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.container li a:hover {
+   background-color: lightgray;
+   width: 100%
+}
+
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 25%;
+}
+
+.map {
+   float: center;
+   text-align: center;
+}
